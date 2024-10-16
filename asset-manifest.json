@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fahim-Nirjon/static/css/main.b9dd3ae3.css",
-    "main.js": "/Fahim-Nirjon/static/js/main.1c013f6a.js",
+    "main.js": "/Fahim-Nirjon/static/js/main.2243ed1f.js",
     "static/js/453.acca0757.chunk.js": "/Fahim-Nirjon/static/js/453.acca0757.chunk.js",
     "static/media/hessel.png": "/Fahim-Nirjon/static/media/hessel.f725897a3bebb7769e01.png",
     "static/media/avenue.png": "/Fahim-Nirjon/static/media/avenue.4f5b4109159ab3c63ce5.png",
@@ -16,11 +16,11 @@
     "static/media/interior.png": "/Fahim-Nirjon/static/media/interior.66631fa625c8655684d0.png",
     "index.html": "/Fahim-Nirjon/index.html",
     "main.b9dd3ae3.css.map": "/Fahim-Nirjon/static/css/main.b9dd3ae3.css.map",
-    "main.1c013f6a.js.map": "/Fahim-Nirjon/static/js/main.1c013f6a.js.map",
+    "main.2243ed1f.js.map": "/Fahim-Nirjon/static/js/main.2243ed1f.js.map",
     "453.acca0757.chunk.js.map": "/Fahim-Nirjon/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9dd3ae3.css",
-    "static/js/main.1c013f6a.js"
+    "static/js/main.2243ed1f.js"
   ]
 }
