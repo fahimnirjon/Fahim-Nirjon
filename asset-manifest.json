@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Fahim-Nirjon/static/css/main.bcf44c24.css",
-    "main.js": "/Fahim-Nirjon/static/js/main.ef9212f0.js",
+    "main.js": "/Fahim-Nirjon/static/js/main.8dfc0829.js",
     "static/js/453.acca0757.chunk.js": "/Fahim-Nirjon/static/js/453.acca0757.chunk.js",
     "static/media/hessel.png": "/Fahim-Nirjon/static/media/hessel.f725897a3bebb7769e01.png",
+    "static/media/ai-saas.png": "/Fahim-Nirjon/static/media/ai-saas.d7c037129a28fcc5f45e.png",
     "static/media/stacks.png": "/Fahim-Nirjon/static/media/stacks.639a3cf3b18cf790c054.png",
     "static/media/Screenshot 2024-11-19 000817.png": "/Fahim-Nirjon/static/media/Screenshot 2024-11-19 000817.4e471197c3cce6fc79b7.png",
     "static/media/blog.png": "/Fahim-Nirjon/static/media/blog.45624997fed54afac9b1.png",
     "static/media/profiler.png": "/Fahim-Nirjon/static/media/profiler.c4c2a142c2874e92b6cd.png",
     "static/media/next-js.png": "/Fahim-Nirjon/static/media/next-js.11982a5ad1260b8339d5.png",
     "static/media/tracker.png": "/Fahim-Nirjon/static/media/tracker.453ca7f2b49632ca3190.png",
-    "static/media/pixel.png": "/Fahim-Nirjon/static/media/pixel.9b46bec6ca602bba2b1c.png",
     "index.html": "/Fahim-Nirjon/index.html",
     "main.bcf44c24.css.map": "/Fahim-Nirjon/static/css/main.bcf44c24.css.map",
-    "main.ef9212f0.js.map": "/Fahim-Nirjon/static/js/main.ef9212f0.js.map",
+    "main.8dfc0829.js.map": "/Fahim-Nirjon/static/js/main.8dfc0829.js.map",
     "453.acca0757.chunk.js.map": "/Fahim-Nirjon/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcf44c24.css",
-    "static/js/main.ef9212f0.js"
+    "static/js/main.8dfc0829.js"
   ]
 }
