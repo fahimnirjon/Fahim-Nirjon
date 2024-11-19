@@ -4,7 +4,7 @@ import pic2 from '../src/images/hessel.png';
 import pic3 from '../src/images/stacks.png';
 import pic4 from '../src/images/blog.png';
 import pic5 from '../src/images/tracker.png';
-import pic6 from '../src/images/pixel.png';
+import pic6 from '../src/images/ai-saas.png';
 
 
 const Info = {
