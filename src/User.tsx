@@ -1,13 +1,10 @@
 import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLinkedin, IconBrandX } from "@tabler/icons-react";
-import pic1 from '../src/images/threads.png';
+import pic1 from '../src/images/Screenshot 2024-11-19 000817.png';
 import pic2 from '../src/images/hessel.png';
-import pic3 from '../src/images/ai-saas.png';
-import pic4 from '../src/images/avenue.png';
-import pic5 from '../src/images/car.png';
-import pic6 from '../src/images/paradise.png';
-import pic7 from '../src/images/interior.png';
-import pic8 from '../src/images/world.png';
-import pic9 from '../src/images/bnk.png';
+import pic3 from '../src/images/stacks.png';
+import pic4 from '../src/images/blog.png';
+import pic5 from '../src/images/tracker.png';
+import pic6 from '../src/images/pixel.png';
 
 
 const Info = {
@@ -20,13 +17,13 @@ const Info = {
 
 const ProjectInfo = [
     {
-        title: "Threads Clone with NextJS",
-        desc: "This project is a comprehensive community platform with authentication using Clerk (email, password, Google, GitHub), featuring a visually appealing home page showcasing the latest threads. Users can create threads, comment, and engage in nested discussions. The platform offers user and community search with pagination, user profiles, activity notifications, and community creation with member management. Admins can create exclusive threads, and community profiles showcase threads and members. The application is optimized for blazing-fast performance using Next.js, MongoDB with complex schemas, real-time event listening, and file uploads. It also includes form management with React Hook Form, data validation with Zod, and modern features like Next.js layout route groups. Figma designs are implemented with pixel-perfect precision for a responsive experience.",
+        title: "Airbnb: A Full-Stack MERN Application",
+        desc: "This project contains a full-stack Airbnb clone built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project replicates core functionalities of the Airbnb platform, including responsive design and dynamic user interfaces created with React.js and modern CSS frameworks like Tailwind CSS or Bootstrap. It features user authentication for login and signup, property listings with filtering options, interactive map integration for visualizing property locations, and a complete booking system for scheduling and confirming reservations. This project is designed to deliver a seamless user experience with optimized performance and modern development practices.",
         image: `${pic1}`,
         live: true,
-        technologies: ["Next.JS","TypeScript", "MongoDB", "TailwindCSS","ShadCN UI", "Redux", "Clerk","Serverless Api","Web Hooks","ZOD", "React Hook Form"],
-        link: "https://threads-fsn.vercel.app/",
-        github: "https://github.com/fahimnirjon/Threads-Nextjs"
+        technologies: ["React.js","JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS", "Axios", "JWT","React Hook Form"],
+        link: "comforth-be903.web.app/",
+        github: "https://github.com/fahimnirjon/Airbnb"
     },
     {
         title: "Gaugearam Hesshel Restaurant",
@@ -38,68 +35,41 @@ const ProjectInfo = [
         github: "https://github.com/fahimnirjon/Gaugearam-Hessel-Client"
     },
     {
+        title: "Beyond The Stacks",
+        desc: "The Beyond-The-Stacks is a modern web application built with Next.js, showcasing an optimized and scalable architecture. It integrates advanced configuration files like `next-sitemap.config.js` for SEO optimization, `contentlayer.config.js` for efficient content handling, and leverages Tailwind CSS for responsive and elegant styling. The project employs environment variables through `.env.example` for secure configuration, and adheres to coding standards with `.eslintrc.json` for linting. With its modular structure in the `src` and `public` folders, this project is designed for seamless development and deployment. It is a robust and versatile application tailored for developers aiming for high performance and scalability..",
+        image: `${pic3}`,
+        live: false,
+        technologies: ["Next.JS", "Typescript", "TailwindCSS", "NextUI", "NextAuth", "ShadcnUI", "Prisma"],
+        link: "https://beyond-the-stacks.vercel.app/",
+        github: "https://github.com/fahimnirjon/Beyond-The-Stacks"
+    },
+    {
+        title: "Ehya- A Modern full stack blog management",
+        desc: "Welcome to Ehya, an interactive and intuitive forum platform where users engage through conversations in the form of posted messages. Whether it’s asking questions, sharing insights, or building a vibrant community, Ehfy ensures seamless discussions in a modern environment. 1.Upvote & Downvote System. 2.Admin Dashboard Control. 3.Categories & Topics Management",
+        image: `${pic4}`,
+        live: false,
+        technologies: ["React", "MongoDB", "Javascript", "Express.JS", "TailwindCSS", "Firebase", "Daisy UI", "Tanstack Query", "MUI", "ShadcnUI", "Sweet Alert"],
+        link: "https://blog-management-frontend-crafted.onrender.com/",
+        github: "https://github.com/fahimnirjon/Blog-Management-Frontend"
+    },
+    {
+        title: "Crypto-Tracker: Real-Time Cryptocurrency Monitoring App",
+        desc: "Crypto-Tracker is a sleek and intuitive cryptocurrency tracking application designed to help users monitor real-time cryptocurrency prices, view detailed statistics, and stay updated with market trends. Built with modern web technologies, it offers a clean and responsive user interface, ensuring an optimal user experience for crypto enthusiasts.",
+        image: `${pic5}`,
+        live: false,
+        technologies: ["Next.JS", "Typescript", "TailwindCSS","NextUI", "Clerk","ShadcnUI", "MongoDB", "Prisma"],
+        link: "https://crypto-chronicles.vercel.app/",
+        github: "https://github.com/fahimnirjon/Crypto-Tracker"
+    },
+    {
         title: "PixelForge AI",
         desc: "Hi there I am Fahim Nirjon. I have developed this Pixel Forge AI saas app.Dive into the trendiest topic on the internet– Artificial Intelligence– as we guide you through building your own AI Prompt Selling Marketplace.What makes this project even more exciting? It's fully completed and ready for deployment, allowing you to kickstart your AI startup effortlessly.Get ready to embark on your AI journey with this comprehensive and innovative project.",
-        image: `${pic3}`,
+        image: `${pic6}`,
         live: false,
         technologies: ["Next.JS", "Typescript", "TailwindCSS","NextUI", "Clerk","ShadcnUI", "MongoDB", "Prisma"],
         link: "https://pixel-forge04.vercel.app/",
         github: "https://github.com/fahimnirjon/Pixel-Forge-AI"
     },
-    {
-        title: "Affluence Avenue",
-        desc: "This is Resort Management Website. Explore Real States unveils a world of opulence with its luxury properties. From lavish penthouses overlooking glittering cityscapes to sprawling estates nestled in serene landscapes, each residence exudes elegance and sophistication. Immerse yourself in unparalleled comfort and style, where every detail is crafted to indulge the most discerning tastes.",
-        image: `${pic4}`,
-        live: false,
-        technologies: ["React", "MongoDB", "Javascript", "Express.JS", "TailwindCSS", "Firebase", "Daisy UI", "Tanstack Query", "MUI", "ShadcnUI", "Sweet Alert"],
-        link: "https://affluence-avenue-20b28.web.app/",
-        github: "https://github.com/fahimnirjon/Affluence-Avenue"
-    },
-    {
-        title: "Car Doctor",
-        desc: "This is the client-side code for the Car Doctor application, which offers a comprehensive solution for managing car services and appointments. Built with modern web technologies, it provides a smooth and responsive user experience. The project is structured with scalability in mind, using tools like Firebase for backend integration and Tailwind CSS for clean and efficient styling.",
-        image: `${pic5}`,
-        live: false,
-        technologies: ["React","MongoDB", "NodeJs", "TailwindCSS", "Heroicons", "Firebase", "Express.JS"],
-        link: "https://car-doc-b10ae.web.app/",
-        github: "https://github.com/fahimnirjon/Car-Doctor-Client"
-    },
-    {
-        title: "Reader`s Paradise",
-        desc: "The Reader`s paradise repository features the client-side code for an book e-store platform application, utilizing React.js, Vite, and Tailwind CSS for a responsive and visually appealing user experience. The structure includes a public folder for static assets and a src directory for core components. With PostCSS and ESLint for improved CSS processing and code quality, this project aims to deliver a modern interface for interior design services on all devices",
-        image: `${pic6}`,
-        live: false,
-        technologies: ["React", "Javascript", "Tailwind","firebase","mongoDB", "Daisy UI", "MUI"],
-        link: "https://readers-paradise.netlify.app/",
-        github: "https://github.com/fahimnirjon/Reader-s-Paradise"
-    },
-    {
-        title: "VR World",
-        desc: "VR-World: This repository contains a virtual reality project built with modern web technologies. It utilizes Vite for development, along with Tailwind CSS for styling. The project structure includes essential configuration files, source code, and a comprehensive README to guide users through setup and usage.",
-        image: `${pic8}`,
-        live: false,
-        technologies: ["React","Javascript", "Tailwind", "Daisy UI", "MUI", "Framer Motion", "Three.JS"],
-        link: "https://vr-world-00.netlify.app/",
-        github: "https://github.com/fahimnirjon/VR-World"
-    },
-    {
-        title: "Interior Design",
-        desc: "The Interior Frontend repository features the client-side code for an interior design application, utilizing React.js, Vite, and Tailwind CSS for a responsive and visually appealing user experience. The structure includes a public folder for static assets and a src directory for core components. With PostCSS and ESLint for improved CSS processing and code quality, this project aims to deliver a modern interface for interior design services on all devices",
-        image: `${pic7}`,
-        live: false,
-        technologies: ["React","Javascript", "Tailwind", "Daisy UI", "MUI"],
-        link: "https://interior-freak.netlify.app/",
-        github: "https://github.com/fahimnirjon/Interior-Frontend/"
-    },
-    {
-        title: "Modern Bank",
-        desc: "Bank-Design: This repository showcases a modern banking application design built using Vite and styled with Tailwind CSS. It features a clean and responsive user interface, with source code and configuration files organized for easy navigation. The README provides setup instructions and details on the project's features.",
-        image: `${pic9}`,
-        live: false,
-        technologies: ["React","Javascript", "Tailwind", "ShadcnUI", "Daisy UI", "MUI"],
-        link: "https://hoo-bank-00.netlify.app/",
-        github: "https://github.com/fahimnirjon/Bank-Design"
-    }
 ]
 
 
