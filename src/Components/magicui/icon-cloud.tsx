@@ -30,9 +30,9 @@ export const cloudProps: Omit<ICloud, "children"> = {
     initial: [0.1, -0.1],
     clickToFront: 500,
     tooltipDelay: 0,
-    outlineColour: "#0000",
-    maxSpeed: 0.07,
-    minSpeed: 0.05,
+    outlineColour: "#000",
+    maxSpeed: 0.09,
+    minSpeed: 0.06,
     // dragControl: false,
   },
 };
@@ -47,7 +47,7 @@ export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
     bgHex,
     fallbackHex,
     minContrastRatio,
-    size: 50,
+    size: 60,
     aProps: {
       href: undefined,
       target: undefined,

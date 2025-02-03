@@ -22,7 +22,7 @@ const ProjectInfo = [
         image: `${pic1}`,
         live: true,
         technologies: ["React.js","JavaScript", "MongoDB", "Node.js", "Express.js", "TailwindCSS", "Axios", "JWT","React Hook Form"],
-        link: "comforth-be903.web.app/",
+        link: "https://comforth-be903.web.app/",
         github: "https://github.com/fahimnirjon/Airbnb"
     },
     {
@@ -76,12 +76,12 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript","Typescript","Next.JS", "React JS", "Redux", "Tailwind CSS", "GSAP","Framer Motion", "Material UI", 
+        skills: ["HTML", "CSS", "JavaScript","Typescript","Next.JS", "React JS", "Tailwind CSS", "DaisyUI", "Shadcn UI", "GSAP","Framer Motion", "Material UI", 
         ]
     },
     {
         title: "Backend",
-        skills: ["Node JS", "Express JS","MongoDB", "Firebase", "Prisma","JWT", "MySQL", "PostgreSQL"]
+        skills: ["Node JS", "Express JS","MongoDB", "Firebase", "Prisma","JWT", "PostgreSQL", "SUPABASE", "AWS", "Netlify", "Vercel", "Render"], 
     },
     {
         title: "Languages",
@@ -89,7 +89,7 @@ const SkillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Axios", "Tanstack Query", "Clerk"]
+        skills: ["Git", "Github", "VS Code", "Postman", "Redux", "MongoDB Compass", "Axios", "Tanstack Query", "Clerk"]
     }
 ]
 const socialLinks = [
@@ -103,59 +103,44 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "MERN Stack Developer",
-        company: "Programming Hero.Com",
-        date: "Jan 2024 - June 2024",
-        desc: "I embarked on an enriching journey by enrolling in a MERN Stack course on Programming Hero. Throughout the course, I gained hands-on experience in developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js. The curriculum was structured to provide a deep understanding of both frontend and backend technologies, focusing on building dynamic, responsive web applications. From database management to server-side logic and frontend user interfaces, this course helped me strengthen my skills in modern web development practices. It also emphasized real-world projects, which significantly boosted my problem-solving abilities and coding efficiency.",
-        skills: ["HTML","CSS", "TailwindCSS", "React JS", "Javascript", "Node JS", "ExpressJS", "MongoDB", "NextJS"]
+        role: "Jr. Full Stack Web Developer",
+        company: "OKKHOR'S LLC",
+        date: "Oct 2024 - Present",
+        desc: "As a Junior Full Stack Developer (MERN Stack) at Okkhor's LLC, a Sweden-based Bangladeshi sister concern company. I develop and maintain scalable web applications using React.js, Next.js, MongoDB, Express.js, and Node.js, focusing on performance, API integration, and user experience.Passionate about coding, I continuously learn and adapt to new technologies, ensuring clean, maintainable code while collaborating with teams to deliver high-quality solutions. This role allows me to grow as a developer and contribute to impactful projects.",
+        skills: ["Javascript", "Next.js", "React.js", "Node.js", "Express.js", "MongoDB", "PostgreSQL", "Supabase"]
     },
     {
-        role: "Full Stack Web Developer",
-        company: "Ostaad Online E-Learning",
-        date: "Oct 2023- Feb 2024",
-        desc:  "Ostaad is an e-learning platform where I learned full stack development, gaining comprehensive knowledge of both frontend and backend technologies. The platform offers hands-on learning experiences, allowing me to develop real-world projects using modern web technologies and tools. Ostaad's structured courses helped enhance my coding skills and understanding of full stack web development.",
-        skills: ["HTML", "CSS", "Python", "Javascript", "PostgreSql", "NextJS", "Dev Tools"]
+        role: "Internship (Full Stack Web Developer)",
+        company: "Akbor Skills Development Limited",
+        date: "Aug 2024- Sept 2024",
+        desc:  "I completed a 4-month internship program at Akbor Skills Development Limited, though I left after 2 months as it was unpaid. During my time there, I gained valuable industry experience in MERN stack development and web technologies, working on real-world projects and improving my problem-solving and collaboration skills. This experience helped me gain a deeper understanding of the industry and prepare for a successful career in web development.",
+        skills: ["Javascript", "React JS",  "ExpressJS", "MongoDB", "AWS", "Docker"]
     }
 ]
 const Slugs = [
     "typescript",
-    "spring",
     "javascript",
-    "dart",
-    "java",
     "react",
-    "angular",
-    "flutter",
-    "android",
     "python",
     "C",
     "C++",
     "html5",
     "css3",
-    "springboot",
     "mongodb",
-    "selenium",
     "nodedotjs",
     "express",
     "nextdotjs",
     "prisma",
-    "mysql",
     "amazonaws",
     "postgresql",
     "firebase",
     "netlify",
     "vercel",
-    "testinglibrary",
     "jest",
-    "cypress",
     "docker",
     "git",
-    "jira",
     "github",
-    "gitlab",
     "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
     "figma",
 ];
 export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };

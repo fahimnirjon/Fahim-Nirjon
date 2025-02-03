@@ -1,7 +1,8 @@
 import { Timeline, useMatches } from "@mantine/core";
 import { IconBriefcaseFilled } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
-import pic1 from '../images/next-js.png'
+import pic1 from '../images/okkhor.jpg'
+
 
 const TimelineItem = (items: any) => {
     const size=useMatches({
