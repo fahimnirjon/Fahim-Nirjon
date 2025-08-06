@@ -2,7 +2,7 @@ import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLinked
 import pic1 from '../src/images/Screenshot 2024-11-19 000817.png';
 import pic2 from '../src/images/hessel.png';
 import pic3 from '../src/images/stacks.png';
-import pic4 from '../src/images/blog.png';
+import pic4 from '../src/images/ecom.png';
 import pic5 from '../src/images/tracker.png';
 import pic6 from '../src/images/ai-saas.png';
 
@@ -16,6 +16,15 @@ const Info = {
 
 
 const ProjectInfo = [
+      {
+        title: "Desire -A modern scalable E-commerce Site",
+        desc: "Desire is a modern, responsive e-commerce website focused on tech gadgets and electronics. Built using the MERN stack, this platform offers seamless browsing, user authentication, product management, and a streamlined shopping experience.",
+        image: `${pic4}`,
+        live: true,
+        technologies: ["Next.js", "React.js", "TypeScript","Sanity.io", "Node.js", "Express.js", "ShadCnUI", "Clerk", "Stripe", "Github", "Vercel"],
+        link: "https://desire-nine.vercel.app/",
+        github: "https://github.com/fahimnirjon/Desire"
+    },
     {
         title: "Airbnb: A Full-Stack MERN Application",
         desc: "This project contains a full-stack Airbnb clone built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project replicates core functionalities of the Airbnb platform, including responsive design and dynamic user interfaces created with React.js and modern CSS frameworks like Tailwind CSS or Bootstrap. It features user authentication for login and signup, property listings with filtering options, interactive map integration for visualizing property locations, and a complete booking system for scheduling and confirming reservations. This project is designed to deliver a seamless user experience with optimized performance and modern development practices.",
@@ -42,15 +51,6 @@ const ProjectInfo = [
         technologies: ["Next.JS", "Typescript", "TailwindCSS", "NextUI", "NextAuth", "ShadcnUI", "Prisma"],
         link: "https://beyond-the-stacks.vercel.app/",
         github: "https://github.com/fahimnirjon/Beyond-The-Stacks"
-    },
-    {
-        title: "Ehya- A Modern full stack blog management",
-        desc: "Welcome to Ehya, an interactive and intuitive forum platform where users engage through conversations in the form of posted messages. Whether it’s asking questions, sharing insights, or building a vibrant community, Ehfy ensures seamless discussions in a modern environment. 1.Upvote & Downvote System. 2.Admin Dashboard Control. 3.Categories & Topics Management",
-        image: `${pic4}`,
-        live: false,
-        technologies: ["React", "MongoDB", "Javascript", "Express.JS", "TailwindCSS", "Firebase", "Daisy UI", "Tanstack Query", "MUI", "ShadcnUI", "Sweet Alert"],
-        link: "https://blog-management-frontend-crafted.onrender.com/",
-        github: "https://github.com/fahimnirjon/Blog-Management-Frontend"
     },
     {
         title: "Crypto-Tracker: Real-Time Cryptocurrency Monitoring App",
@@ -81,15 +81,15 @@ const SkillInfo = [
     },
     {
         title: "Backend",
-        skills: ["Node JS", "Express JS","MongoDB", "Firebase", "Prisma","JWT", "PostgreSQL", "SUPABASE", "AWS", "Netlify", "Vercel", "Render"], 
+        skills: ["Node JS", "Express JS","MongoDB", "Firebase", "Prisma","JWT", "PostgreSQL", "SUPABASE", "AWS", "Sanity.io", "Netlify", "Vercel", "Render"], 
     },
     {
         title: "Languages",
-        skills: ["JavaScript", "TypeScript", "C", "C++", "Python"]
+        skills: ["JavaScript", "TypeScript", "C++", "Python"]
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "Redux", "MongoDB Compass", "Axios", "Tanstack Query", "Clerk"]
+        skills: ["Git", "Github", "VS Code", "Postman","Zustand", "MongoDB Compass", "Axios", "Tanstack Query", "Clerk"]
     }
 ]
 const socialLinks = [
