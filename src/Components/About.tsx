@@ -40,7 +40,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="h-fit flex justify-center items-center rounded-full bs:mr-10 w-fit">
-                    <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
+                    <NeonGradientCard className="w-[350px] h-[350px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
                         <img className="w-full  h-full rounded-full " src={pic} alt="profile" />
                     </NeonGradientCard>
                 </div>
